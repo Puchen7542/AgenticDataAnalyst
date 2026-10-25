@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# DuckDB / SQLite / Large Data
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+
+# 数据文件（可选，小规模样本可以保留，避免大文件上传）
+# data/*.csv
+
+# Output 生成的大型日志/报告（可选择保留精选报告，排除日志缓存）
+agentic_analyst/output/analysis_log.json
+output/analysis_log.json
+
+# 系统与 IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
